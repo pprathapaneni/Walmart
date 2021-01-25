@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Walmart Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Walmart App Test Cases(failed)">
+    <classes>
+      <class name="com.walmart.qa.testcases.ShopGroceryTest">
+        <methods>
+          <include name="validateShopGroceryTitleTest"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.walmart.qa.testcases.ShopGroceryTest -->
+    </classes>
+  </test> <!-- Walmart App Test Cases(failed) -->
+</suite> <!-- Failed suite [Walmart Test Suite] -->

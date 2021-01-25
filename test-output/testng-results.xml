@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Walmart Test Suite" duration-ms="96568" started-at="2021-01-25T18:00:40 EST" finished-at="2021-01-25T18:02:16 EST">
+    <groups>
+    </groups>
+    <test name="Walmart App Test Cases" duration-ms="96568" started-at="2021-01-25T18:00:40 EST" finished-at="2021-01-25T18:02:16 EST">
+      <class name="com.walmart.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="SetUp" is-config="true" duration-ms="12059" started-at="2021-01-25T18:00:40 EST" finished-at="2021-01-25T18:00:52 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:1, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="validateHomePageTitleTest" duration-ms="36" started-at="2021-01-25T18:00:52 EST" finished-at="2021-01-25T18:00:52 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="1651" started-at="2021-01-25T18:00:52 EST" finished-at="2021-01-25T18:00:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="SetUp" is-config="true" duration-ms="10891" started-at="2021-01-25T18:00:54 EST" finished-at="2021-01-25T18:01:04 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateWalmartImageTest()[pri:2, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="validateWalmartImageTest" duration-ms="790" started-at="2021-01-25T18:01:04 EST" finished-at="2021-01-25T18:01:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWalmartImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="1509" started-at="2021-01-25T18:01:05 EST" finished-at="2021-01-25T18:01:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="SetUp" is-config="true" duration-ms="12536" started-at="2021-01-25T18:01:07 EST" finished-at="2021-01-25T18:01:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateShopGroceryTest()[pri:3, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="validateShopGroceryTest" duration-ms="8276" started-at="2021-01-25T18:01:19 EST" finished-at="2021-01-25T18:01:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateShopGroceryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.HomePageTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="2322" started-at="2021-01-25T18:01:28 EST" finished-at="2021-01-25T18:01:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.HomePageTest -->
+      <class name="com.walmart.qa.testcases.ShopGroceryTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.walmart.qa.testcases.ShopGroceryTest@5bcea91b]" name="SetUp" is-config="true" duration-ms="19509" started-at="2021-01-25T18:01:30 EST" finished-at="2021-01-25T18:01:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="validateShopGroceryTitleTest()[pri:1, instance:com.walmart.qa.testcases.ShopGroceryTest@5bcea91b]" name="validateShopGroceryTitleTest" duration-ms="57" started-at="2021-01-25T18:01:49 EST" finished-at="2021-01-25T18:01:49 EST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Walmart Grocery Delivery &amp; Pickup: Order Groceries online | Walmart Canada] but found [Walmart Grocery Delivery & Pickup: Order Groceries online | Walmart Canada]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Walmart Grocery Delivery &amp; Pickup: Order Groceries online | Walmart Canada] but found [Walmart Grocery Delivery & Pickup: Order Groceries online | Walmart Canada]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.walmart.qa.testcases.ShopGroceryTest.validateShopGroceryTitleTest(ShopGroceryTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateShopGroceryTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.ShopGroceryTest@5bcea91b]" name="tearDown" is-config="true" duration-ms="2880" started-at="2021-01-25T18:01:49 EST" finished-at="2021-01-25T18:01:52 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.walmart.qa.testcases.ShopGroceryTest@5bcea91b]" name="SetUp" is-config="true" duration-ms="20242" started-at="2021-01-25T18:01:52 EST" finished-at="2021-01-25T18:02:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateGroceryOptionsTest()[pri:2, instance:com.walmart.qa.testcases.ShopGroceryTest@5bcea91b]" name="validateGroceryOptionsTest" duration-ms="1955" started-at="2021-01-25T18:02:13 EST" finished-at="2021-01-25T18:02:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGroceryOptionsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.ShopGroceryTest@5bcea91b]" name="tearDown" is-config="true" duration-ms="1757" started-at="2021-01-25T18:02:15 EST" finished-at="2021-01-25T18:02:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.ShopGroceryTest -->
+    </test> <!-- Walmart App Test Cases -->
+  </suite> <!-- Walmart Test Suite -->
+</testng-results>
